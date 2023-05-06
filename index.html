@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AIart</title>
+    <link rel="stylesheet" href="./Styles/style.css">
+    <script src="./JS/kod.js"></script>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="shortcut icon" href="./Styles/logo.png"/>
+    <script src="https://kit.fontawesome.com/73146b34cb.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo"><a href="#a"><img id="LogoAI" src="./Images/logo.png" alt="Logo"></a></div>
+        <div id="AIart">AI art</div>
+        <ul>
+            <li><a class="sekcja" href="#b">Information</a></li>
+            <li><a class="sekcja" href="#c">Types</a></li>
+            <li><a class="sekcja" href="#d">Pages</a></li>
+            <li><a class="sekcjaico" href="#b"><i class="fa-solid fa-1"></i></a></li>
+            <li><a class="sekcjaico" href="#c"><i class="fa-solid fa-2"></i></a></li>
+            <li><a class="sekcjaico" href="#d"><i class="fa-solid fa-3"></i></a></li>
+            
+        </ul>
+      </div>
+  </header>
+    <button onclick="scrollToBottom()" class="scroll-to-top">Up</button>
+    <div class="container">
+      <div class="leftmenu">
+        <div class="side-menu-container">
+          <nav class="side-menu">
+            <a class="toSec1" href="#a"
+              ><div><i class="fa fa-home"></i></div
+            ></a>
+            <a class="toSec2" href="#b"
+              ><div><i class="fa-solid fa-1"></i></div
+            ></a>
+            <a class="toSec3" href="#c"
+              ><div><i class="fa-solid fa-2"></i></div
+            ></a>
+            <a class="toSec4" href="#d"
+              ><div><i class="fa-solid fa-3"></i></div
+            ></a>
+          </nav>
+        </div>
+      </div>
+      <div id="content_container">
+        <div id="lefthand"><img src="./Images/lefthand.png" alt="Left hand"></div>
+        <div id="context">
+          <div class="part_of_context" id="a">
+            <div class="logo_in_context"><img src="./Images/logo.png" alt="Logo"></div>
+            <div><img src="./Images/LogoAI.png" height="200" alt="LogoAI"></div>
+            <div class="logo_in_context"><a href="#b"><img src="./Images/Arrow.png" height="200" alt="Arrow"></a></div>
+          </div>
+          <div class="part_of_context" id="b">
+            <div class="text_in_context"><h1>Turn imagination into art.</h1>
+              <p style="font-size: 20px ; font-weight:lighter;">AI Art, or Artificial Intelligence Art, refers to the use of AI algorithms and techniques to create artwork. This includes a wide range of approaches, from generative art that uses algorithms to create images, to machine learning systems that can learn to create art in specific styles or genres. AI Art has become increasingly popular in recent years, with many artists and researchers exploring the possibilities of this new medium. Some believe that AI Art has the potential to revolutionize the way we create and experience art, while others are more skeptical of its value and impact on traditional artistic practices.</p>
+              <br>
+              <div>
+              <div class="image1">
+                <img src="./Images/boy.jpg"  alt="Boy" style="width:30% ;">
+              </div>
+              <div class="image1">
+                <img src="./Images/dog.jpg"  alt="Dog" style="width:30% ;">
+              </div>
+              <div class="image1">
+                <img src="./Images/girl.jpg"  alt="Girl" style="width:30% ;">
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="part_of_context" id="c">
+            <div class="text_in_context">
+              <p style="font-size: 24px ; font-weight:normal;">These are just a few examples of the many techniques and approaches used in AI Art. The field is constantly evolving, and new techniques and algorithms are being developed all the time.<br><br></p>
+              <ol style="font-size:17px ; font-weight: lighter;">
+                <li >
+                  Generative Adversarial Networks (GANs) - a type of machine learning algorithm that pits two neural networks against each other to generate new, unique images.<br><br>
+                </li>
+                
+                
+                <li>
+                  Style Transfer - a technique that uses a trained neural network to apply the style of one image to another image.<br><br>
+                </li>
+                
+                <li>
+                  Variational Autoencoders (VAEs) - a type of neural network that can learn to generate new images based on a dataset of training images.<br><br>
+                </li>
+                
+                <li>
+                  DeepDream - a technique that uses a neural network to enhance and exaggerate patterns and features in an image.<br><br>
+                </li>
+                
+                <li>
+                  Neural Style - a technique that uses a neural network to transfer the style of one image onto another image.<br><br>
+                </li>
+                
+                <li>
+                  Evolutionary Algorithms - a technique that uses natural selection and genetic algorithms to create new images based on a set of criteria or objectives.<br><br>
+                </li>
+                
+                <li>
+                  Recurrent Neural Networks (RNNs) - a type of neural network that can generate new images or sequences based on previous inputs or data.<br><br>
+                </li>
+                
+                <li>
+                  Transformers - a type of neural network architecture that can be trained to generate new images or sequences based on a given prompt or input.<br><br>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="part_of_context" id="d">
+            <div class="text_in_context">
+              <p>
+              Here are some websites where you can create your own AI-generated art:
+              </p>
+              <br>
+              <table style="font-size:17px ;">
+                <tr>
+                  <th>Name</th>
+                  <th>What you can do?</th>
+                </tr>
+                <tr>
+                  <td>Deep Dream Generator</td>
+                  <td>A website that uses a neural network to generate trippy, surreal images based on user inputs and preferences</td>
+                </tr>
+                <tr>
+                  <td>Artbreeder</td>
+                  <td>A website that allows users to mix and evolve images, using GANs and VAEs, to create unique and diverse AI-generated art.</td>
+                </tr>
+                <tr>
+                  <td>Runway ML</td>
+                  <td>A platform that offers a range of AI tools, including models for generating art, music, and video.</td>
+                </tr>
+                <tr>
+                  <td>Neuralstyle.art</td>
+                  <td>A website that uses a neural network to transfer the style of one image onto another image, allowing users to create unique, stylized artwork.</td>
+                </tr>
+                <tr>
+                  <td>Ganbreeder</td>
+                  <td>A website that uses GANs to generate a vast array of unique and diverse images, which can be evolved and combined to create new artwork.</td>
+                </tr>
+                <tr>
+                  <td>Artomatix</td>
+                  <td>A website that offers a suite of AI tools for creating digital art, including texture synthesis, image manipulation, and more.</td>
+                </tr>
+                <tr>
+                <td>DeepArt.io</td>
+                <td>A website that uses neural networks to generate art based on user inputs and preferences, allowing users to create customized, AI-generated artwork.</td>
+              </tr>
+              </table>
+              <br>
+              <p>
+              Keep in mind that some of these websites may require payment or registration to access their full range of features.
+            </p>
+            </div>
+          </div>
+        </div>
+        <div id="righthand"><img src="./Images/righthand.png" alt="RightHand"></div>
+        
+      </div>
+  </div>
+  <footer id="footer">Wiktoria Sordyl 2023 &copy;</footer>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(window).on('resize scroll', function() {
+        var windowWidth = $(window).width();
+        var scrollTop = $(window).scrollTop();
+        if (windowWidth < 600) {
+          $('.leftmenu').removeClass('show');
+          $('.navbar').removeClass('hide');
+        } else {
+          if (scrollTop > 0) {
+            $('.leftmenu').addClass('show');
+            $('.navbar').addClass('hide');
+          } else {
+            $('.leftmenu').removeClass('show');
+            $('.navbar').removeClass('hide');
+          }
+        }
+      });
+    });
+  </script>
+  
+  </body>
+  
+</html>
